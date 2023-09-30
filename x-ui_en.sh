@@ -104,7 +104,7 @@ before_show_menu() {
 }
 
 install() {
-    bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install_en.sh)
     if [[ $? == 0 ]]; then
         if [[ $# == 0 ]]; then
             start
@@ -123,7 +123,7 @@ update() {
         fi
         return 0
     fi
-    bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
+    bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install_en.sh)
     if [[ $? == 0 ]]; then
         LOGI "upgrade finished,restart completed"
         exit 0

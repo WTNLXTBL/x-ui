@@ -6,6 +6,7 @@ This project is a fork of [vaxilu&#39;s project](https://github.com/vaxilu/x-ui)
 If you need more language options ,please open a issue and let me know that
 
 # Changes   
+- 2023.09.30：Bump Xray to v1.8.4
 - 2023.07.18：Random Reality dest and serverNames;more detailed sniffing settings available  
 - 2023.06.10：Enable TLS will reuse panel's certs and domain;add setting for ocspStapling;refactor device limit  
 - 2023.04.09：Support REALITY for now  
@@ -47,11 +48,11 @@ for more detailed usages,plz see [WIKI](https://github.com/FranzKafkaYu/x-ui/wik
 Make sure your system `bash` and `curl` and `network` are ready,here we go
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install.sh)
 ```  
 For English Users,please use the following command to install English supported version:  
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install_en.sh)
 ``` 
 
 ## Shortcut  
@@ -99,22 +100,9 @@ please input a legal number[0-16]:
 
 # Telegram
 
-[Channel](https://t.me/CoderfanBaby)  
-[Group](https://t.me/franzkafayu)
+[PM/DM](https://t.me/TG_WN)
 
 # Credits
 - [vaxilu/x-ui](https://github.com/vaxilu/x-ui)
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core)
 - [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api)  
-
-# Sponsor  
-
-if you want to purchase some virtual servers,you can purchase by my aff link:   
-- [BandwagonHost](https://bandwagonhost.com/aff.php?aff=65703)     
-- [Cloudcone](https://app.cloudcone.com/?ref=7536)  
-- [SpartanHost](https://billing.spartanhost.net/aff.php?aff=1875)  
-
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/FranzKafkaYu/x-ui.svg)](https://starchart.cc/FranzKafkaYu/x-ui)

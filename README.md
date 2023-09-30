@@ -38,15 +38,15 @@
 &#x26A1;从原版升级也可使用该命令，数据不会丢失&#x26A1;
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install.sh)
 ```    
 For English Users,please use the following command to install English supported version:  
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install_en.sh)
 ```
 如需安装指定的版本,可以在上述命令中指定版本号,如指定版本为`0.3.4.4`,安装命令如下：    
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh) 0.3.4.4   
+bash <(curl -Ls https://raw.githubusercontent.com/WTNLXTBL/x-ui/main/install.sh) 0.3.4.4   
 ```
 
 # 效果预览  
@@ -169,6 +169,7 @@ xray 状态: 运行
 - Debian 8+
 
 # 变更记录   
+- 2023.09.30：更新Xray版本至v1.8.4
 - 2023.07.18：随机生成Reality dest与serverNames,去除微软域名;细化sniffing配置  
 - 2023.06.10：开启TLS时自动复用面板证书与域名;增加证书热重载设定;优化设备限制功能  
 - 2023.04.09：支持Reality;支持新的telegram bot控制指令  
@@ -192,8 +193,7 @@ xray 状态: 运行
 - 2022.04.06：优化安装/更新流程，增加证书签发功能，添加Telegram bot机器人推送功能
 # Telegram
 
-[订阅频道](https://t.me/CoderfanBaby)  
-[讨论群组](https://t.me/franzkafayu)
+[联系我](https://t.me/TG_WN)
 
 # 致谢
 
@@ -201,17 +201,6 @@ xray 状态: 运行
 - [XTLS/Xray-core](https://github.com/XTLS/Xray-core)
 - [telegram-bot-api](https://github.com/go-telegram-bot-api/telegram-bot-api)  
 
-# 广告赞助  
-
-如果你觉得本项目对你有用,而且你也恰巧有这方面的需求,你也可以选择通过我的购买链接赞助我  
-- [搬瓦工GIA高端线路](https://bandwagonhost.com/aff.php?aff=65703),仅推荐购买GIA套餐      
-- [Cloudcone性价比主机提供商](https://app.cloudcone.com/?ref=7536)  
-- [Spartan三网4837性价比主机](https://billing.spartanhost.net/aff.php?aff=1875)
-  
-如果你希望购买一些现成的代理服务,可选择下述代理服务
-- [搬瓦工关联机场](https://justmysocks.net/members/aff.php?aff=18177)  
-- [高端奶昔机场](https://nxboom.com/signupbyemail.aspx?MemberCode=2fd79885e45549049c66698f1eea154620230921234746)  
-
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/FranzKafkaYu/x-ui.svg)](https://starchart.cc/FranzKafkaYu/x-ui)
+[![Stargazers over time](https://starchart.cc/WTNLXTBL/x-ui.svg)](https://starchart.cc/WTNLXTBL/x-ui)
